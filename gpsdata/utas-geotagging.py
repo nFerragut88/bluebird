@@ -7,8 +7,8 @@ import numpy as np
 
 #tutorial:
 #https://support.google.com/fusiontables/answer/1244603?hl=en
-thedir = 'Z:\gpsdata\photos'
-f = open("Z:\gpsdata\output.csv","w")
+thedir = 'photos'
+f = open("output.csv","w")
 def exif_to_degrees(value):
     A = np.array(value, dtype=float)
     m,n = A.shape

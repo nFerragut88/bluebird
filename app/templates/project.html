@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{%block title%} Project {%endblock%}
+{% block content %}
+  <br>
+  
+  <p>this is your project</p>
+
+  <form method = "POST">
+    {{ form.csrf_token }}
+    {{form.name.label}} {{ form.name() }}
+    {{ form.submit() }}
+  </form>
+{% endblock %}

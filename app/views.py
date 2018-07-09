@@ -1,4 +1,4 @@
-import os
+import os, redis
 from app import app
 from flask import render_template
 from flask_wtf import FlaskForm
@@ -11,7 +11,7 @@ class NameForm(FlaskForm):
     
 
 # abspath = (os.path.abspath(os.curdir))
-key = open('app/apiKey').readline()
+key = open('app/apiKey.txt').readline()
 
 @app.route('/')
 @app.route('/index')

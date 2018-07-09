@@ -1,0 +1,2 @@
+7/7/18: set up and tested everything - 1 hour
+7/8/18: got redis server to work - 1 hour

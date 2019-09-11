@@ -4,7 +4,27 @@
   <br>
   
   <p>create a new project</p>
+  <form method = "POST">
+    {{ createProject.csrf_token }}
+    {{createProject.name.label}} {{ createProject.name() }}
+    {{ createProject.submit() }}
+  </form>
+  
+  <head>
+  {{ dropzone.load_css() }}
+  {{ dropzone.style('border: 2px dashed #0087F7; margin: 10%; min-height: 400px;') }}
 
+  </head>
+  
+	<body>
+	{{ dropzone.create(action='/projects') }}
+	{{ dropzone.load_js() }}
+	{{ dropzone.config() }}
+	</body>
+
+  
+  
+  
   <ul>
     
   </ul>

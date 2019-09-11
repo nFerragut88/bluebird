@@ -12,7 +12,7 @@ priorities:
 -- projects
 	
 	To Do List:
-1. login and create account
+1. login and create account [DONE]
 2. redis data store for storing photos and accounts and projects
 3. create project for an account
 4. upload photo/geotag extraction

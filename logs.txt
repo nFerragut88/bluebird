@@ -1,2 +1,6 @@
-7/7/18: set up and tested everything - 1 hour
-7/8/18: got redis server to work - 1 hour
+7/7/18: set up and tested everything---------------- 1 hour
+7/8/18: got redis server to work-------------------- 1 hour
+7/11/18: user and password submit info to redis----- 1 hour
+7/19/18: worked with login and cookies-------------- 1 hour
+8/25/18: flask dropzone to handle uploading part 1-- 1 hour
+9/10/18: flask dropzone to handle uploading part 2-- 1 hour
